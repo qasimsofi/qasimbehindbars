@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IUST Plus - Signup</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="signup-box">
+      <h2>Signup</h2>
+      <form>
+        <div class="input-group">
+          <label for="id-card">Upload ID Card</label>
+          <input type="file" id="id-card" required>
+        </div>
+        <div class="input-group">
+          <label for="reg-no">Student Registration Number</label>
+          <input type="text" id="reg-no" pattern="[A-Za-z]{4}[0-9]{10}" required>
+        </div>
+        <div class="input-group">
+          <label for="bus-route">Choose Route</label>
+          <select id="bus-route" required>
+            <option value="">Select Route</option>
+            <option value="26">Bus No 26 - Soura, Ahmad Nagar, Dalgate to IUST</option>
+            <option value="40">Bus No 40 - Chanapora, Hyderpora to IUST</option>
+            <option value="20">Bus No 20 - Malabagh, Dalgate to IUST</option>
+          </select>
+        </div>
+        <button type="submit" class="signup-btn">Signup</button>
+      </form>
+    </div>
+  </div>
+  <div class="logo-container">
+    <img src="logo.webp" alt="IUST University Logo">
+    <p class="university-name">Islamic University </p>
+    <p class="university-science"> of Science and Technology</p>
+  </div>
+</body>
+</html>

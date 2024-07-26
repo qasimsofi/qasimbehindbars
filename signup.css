@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: url('dd.jpeg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-left: 70%;
+}
+
+.signup-box {
+  background-color: #333;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+.signup-box h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-group input[type="file"],
+.input-group input[type="text"],
+.input-group select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0e6296;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.signup-btn:hover {
+  background-color: #0cde94;
+  animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: small;
+  padding-right: 2cm ;
+  size: 5cm;
+height: 20%;
+}
+
+.university-name {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 1cm;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 0.1mm;
+  
+}
+
+.university-science {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 1cm;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 0.2cm;
+}
+img {
+  width: 25%;
+  height: auto;
+}
+
+@media (orientation: landscape) {
+  img {
+      width: 50%;
+  }
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    width: 90%;
+  }
+}
+
